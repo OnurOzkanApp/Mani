@@ -1,0 +1,10 @@
+{
+       "level_number": 1,
+       "grid_width": 3,
+       "grid_height": 3,
+       "move_count": 1,
+       "board": ["bl", "b", "y", "r", "r", "b", "y", "bl", "r"],
+       "targets": [
+         { "targetType": "R", "count": 3 }
+       ]
+}

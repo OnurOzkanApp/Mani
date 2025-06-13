@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5219652192116920522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8427416560952427908}
+  - component: {fileID: 1042771655484345294}
+  m_Layer: 0
+  m_Name: ObjectPoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8427416560952427908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5219652192116920522}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5533351, y: 0.57523185, z: -4.131466}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1042771655484345294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5219652192116920522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60407b6e667c46042853de0b4df38003, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolConfigs:
+  - poolKey: BlackCube
+    prefab: {fileID: 7988303869312492853, guid: 9340eeef9919ad548939fae89f8d1723, type: 3}
+    preloadCount: 24
+  - poolKey: BlueCube
+    prefab: {fileID: 4810596123696832574, guid: b32305dfc6aff454794743692b722329, type: 3}
+    preloadCount: 24
+  - poolKey: RedCube
+    prefab: {fileID: 5400444371885464584, guid: 74f51fdc0592563429effd8621e10c58, type: 3}
+    preloadCount: 24
+  - poolKey: YellowCube
+    prefab: {fileID: 875746108322846915, guid: c102061dfbb2f524282840be78d0cde7, type: 3}
+    preloadCount: 24
+  - poolKey: WhiteCube
+    prefab: {fileID: 5400444371885464584, guid: b9a8ec3b6aa9c874a991102e2b6164c1, type: 3}
+    preloadCount: 5
+  - poolKey: BlackCubeSpecial
+    prefab: {fileID: 3921352526477879510, guid: 33a02e7266a5bef43bd9938ee7cbeb7d, type: 3}
+    preloadCount: 4
+  - poolKey: BlueCubeSpecial
+    prefab: {fileID: 4377379623356466095, guid: 168d3db58baf63b4bb58654900e8dfb4, type: 3}
+    preloadCount: 4
+  - poolKey: RedCubeSpecial
+    prefab: {fileID: 1087410532209832497, guid: 1300eb1bd39555542b6e9ee4bc0565f4, type: 3}
+    preloadCount: 4
+  - poolKey: YellowCubeSpecial
+    prefab: {fileID: 5619545551898389428, guid: 228cb061a7dae0d40a5bcab32268df81, type: 3}
+    preloadCount: 4
+  poolContainer: {fileID: 0}

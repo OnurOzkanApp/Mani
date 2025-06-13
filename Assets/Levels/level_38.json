@@ -1,0 +1,20 @@
+{
+  "level_number": 38,
+  "grid_width": 8,
+  "grid_height": 6,
+  "move_count": 16,
+  "board": [
+    "r", "r", "y", "bl", "p", "b", "s", "y",
+    "bl", "p", "r", "y", "b", "s", "bl", "r",
+    "r", "b", "p", "s", "y", "r", "b", "bl",
+    "p", "y", "bl", "r", "s", "b", "y", "p",
+    "bl", "r", "b", "y", "p", "s", "r", "y",
+    "s", "bl", "y", "b", "r", "p", "s", "bl"
+  ],
+  "targets": [
+    { "targetType": "S", "count": 6 },
+    { "targetType": "BL", "count": 22 },
+    { "targetType": "Y", "count": 22 },
+    { "targetType": "P", "count": 5 }
+  ]
+}

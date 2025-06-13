@@ -1,0 +1,19 @@
+{
+  "level_number": 21,
+  "grid_width": 6,
+  "grid_height": 6,
+  "move_count": 13,
+  "board": [
+    "bl", "y", "bl", "y", "bl", "b",
+    "r", "bl", "r", "y", "s", "y",
+    "r", "r", "y", "r", "y", "s",
+    "y", "bl", "s", "bl", "b", "b",
+    "b", "bl", "b", "r", "bl", "s",
+    "b", "s", "s", "r", "y", "r"
+  ],
+  "targets": [
+    { "targetType": "S", "count": 6 },
+    { "targetType": "B", "count": 20 },
+    { "targetType": "Y", "count": 18 }
+  ]
+}
