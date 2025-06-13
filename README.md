@@ -83,6 +83,16 @@ This project was developed by **Onur Özkan** to showcase:
 
 ---
 
+## ⚠️ Licensing & Use
+
+This project is shared **for demonstration purposes only** as part of a personal portfolio.
+
+All rights reserved © Onur Özkan.
+
+Please do not copy, reproduce, or reuse any part of this code or assets without explicit permission.
+
+---
+
 ## 📬 Contact Me
 
 📧 onurozkanapp@gmail.com  
