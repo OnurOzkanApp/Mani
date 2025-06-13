@@ -6,7 +6,7 @@
 
 ## 🎮 Gameplay Trailer
 
-[![Watch the trailer](https://img.youtube.com/vi/RBKKJrf5Cus/maxresdefault.jpg)](https://www.youtube.com/watch?v=RBKKJrf5Cus)
+[![Watch the trailer](https://img.youtube.com/vi/oe-eunrKF8A/maxresdefault.jpg)](https://www.youtube.com/watch?v=oe-eunrKF8A)
 
 > 📽️ Click the image above to watch a quick demo of core gameplay, cube interactions, and UI design.
 
